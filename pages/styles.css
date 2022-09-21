@@ -5,10 +5,7 @@ html {
 
     font-family: sans-serif;
 }
-@media (min-width:768px) {
 
-}
-@media (min-width:1025px){}
 body {
     margin-left: 550px;
     margin-right: 550px;
@@ -85,10 +82,11 @@ img {
 * {
     box-sizing: border-box;
 }
+.containerimg{
+    display: flex;
 
+}
 .img2 {
-    float: left;
-    width: 33.33%;
     position: relative;
     text-align: center;
     background-color: cornflowerblue;
@@ -201,6 +199,7 @@ section figure a:hover {
     color: cornflowerblue;
     margin-bottom: 25px;
     font-size: 80px;
+    background-color: white;
 }
 
 .pie .grupo1 .box p {
@@ -220,12 +219,12 @@ section figure a:hover {
     width: 100px;
     height: 100px;
     line-height: 100px;
-    color: white;
+    color: cornflowerblue;
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
-    background-color: cornflowerblue;
+    background-color: white;
     text-align: center;
     font-size: 70px;
 }
@@ -263,7 +262,7 @@ footer {
     margin-top: 200px;
 }
 #contact img{
-    width: ;
+    width: 50px ;
 }
 #contact h1 {
     color: white;
@@ -398,5 +397,14 @@ body div h2{
 }
 .container .ofi{
     height: 1042px;
+
+}
+
+@media  (max-width:767px) {
+    .containerimg {
+        flex-direction: column; 
+        
+    
+    }
 
 }
