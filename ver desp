@@ -102,3 +102,10 @@
     </section>
     </section> 
     <img src=img/fondolimp.jpg alt="fondo" height="100%"width="100%">
+
+    .row ::after {
+        content: "";
+        clear: both;
+        display: table;
+    
+    }
