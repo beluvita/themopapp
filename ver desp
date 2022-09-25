@@ -148,3 +148,112 @@
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
+
+
+*/--footer*/
+      .row{
+        display: flex;
+    }
+    .containertext-center .row {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+    
+    .containertext-center .row .col-lg-3 figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .containertext-center .row .col-lg-3  h2 {
+        color: cornflowerblue;
+        margin-bottom: 25px;
+        font-size: 20px;
+        background-color:white;
+    }
+    
+    .containertext-center .row .col-lg-3 p {
+        color: cornflowerblue;
+        font-size: 10px;
+    }
+    
+    .containertext-center .row .col-lg-3  h1 {
+        color: cornflowerblue;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    
+    .containertext-center .row .redes a {
+        display: inline-block;
+        text-decoration: none;
+        width: 80px;
+        height: 80px;
+        line-height: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        color:cornflowerblue;
+    }
+    
+    .containertext-center .grupo2 {
+        background-color: cornflowerblue;
+        padding: 15px 10px;
+        text-align: center;
+        color: white;
+    }
+    
+    .containertext-center .grupo2 small {
+        font-size: 15px;
+    }
+
+
+    */SERVICIOS*/
+    .servicios{
+        justify-content: center;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    body div h2{
+        color: white;
+        background-color: cornflowerblue;
+        padding: 30px 25px 30px 25px;
+        font-size: 40px;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .servfotos  {
+        display: flex;
+        background-color: #05C73F;
+        border-radius: 20px;
+    
+    }
+    .container figure{
+      color: white;
+      text-align: center;
+        font-size: 16px;
+        text-decoration: none;
+        justify-content: center;
+        padding: 20px ;
+    
+    }
+    
+    
+    .container figure .ofi{
+        height: 200px;
+
+        */SERVICIOS*/

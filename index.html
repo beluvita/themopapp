@@ -18,29 +18,29 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: white;">
+        <nav class="navbar navbar-expand-lg navbar-light stilo" >
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src=img/logo-mopapp.png class="logo"class="img-fluid" alt="logo" width="100px" height="30px">
+                <a class="navbar-brand" href="index.html"><img src=img/logo-mopapp.png   alt="logo" width="150px" height="10px">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="opcionesnav" class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div  class="collapse navbar-collapse opcionesnav" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#pages/index.html">Home</a>
+                    <a class="nav-link" href="pages/index.html"></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="pages/servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link" href="pages/servicios.html" role="button" >
                       Servicios
                     </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <ul class="dropdown-menu" area-labelledby="navbarropdown">
+                      <li><a class="dropdown-item" href="limpieza-del-hogar">Hogar</a></li>
+                      <li><a class="dropdown-item" href="Limpieza-de-oficinas">Oficinas</a></li>
+                      <li><a class="dropdown-item" href="limpieza-de-techos">Techos</a></li>
+                      <li><a class="dropdown-item" href="servicios-de-Sanitización-y-Desinfección">Desinfección</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -111,9 +111,38 @@
 
         </section>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+    <footer>
+        <div class="container-fluid containertext-center stilo">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-lg-4">
+                    <figure>
+                        <a href="#">
+                            <img class="logo" src="img/logo-mopapp.png"  width="150px" height="10px"alt="logo-mopapp">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-4">
+                    <ul>
+                        <li>Preguntas frecuentes</li>
+                        <li>Politica de privacidad</li>
+                        <li>Terminos y condiciones</li>
+                        <li>Contactanos</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-4">
+                    <h1>Encontranos en</h1>
+                    <div class="redes">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo2">
+                <small>&copy; 2022 <b>Themopapp </b> - Todos los Derechos Reservados.</small>
+            </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </body>
 
@@ -121,32 +150,6 @@
 <br>
 <br>
 <br>
-<footer>
-    <div class="containertext-center">
-        <div class="row">
-            <div class="col">
-                <figure>
-                    <a href="#">
-                        <img class="logo" src="img/logo-mopapp.png" alt="logo-mopapp">
-                    </a>
-                </figure>
-            </div>
-            <div class="col">
-                <h1>Sobre nosotros</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis impedit est delectus. Odit ad
-                    impedit }!</p>
-            </div>
-            <div class="col">
-                <h2>Encontranos en</h2>
-                <div class="redes">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                </div>
-            </div>
-        </div>
-        <div class="grupo2">
-            <small>&copy; 2022 <b>Themopapp </b> - Todos los Derechos Reservados.</small>
-        </div>
-</footer>
+
 
 </html>
