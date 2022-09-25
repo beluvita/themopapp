@@ -109,3 +109,42 @@
         display: table;
     
     }
+
+
+
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-opacity-10">
+        <img src=img/logo-mopapp.png class="logo"class="img-fluid" alt="logo" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mopapp">
+        <div class="collapse navbar-collapse" id="mopapp">
+    <img class="logo" src=img/logo-mopapp.png class="img-fluid" alt="logo" />
+    <img class="logo" src=img/logo-mopapp.png class="img-fluid" alt="logo" />
+    <img class="logo" src=img/logo-mopapp.png class="img-fluid" alt="logo" />
+    <br>
+</div>
+    </nav>
+    <nav class="navbar navbar-expand-sm navbar-light bg-opacity-10">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones" name="button">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="opciones">
+            <div class="menu1">
+                <ul>
+                        <li><a href="pages/index.html">Home</a></li>
+                        <li><a href="pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="pages/contacto.html">Contacto</a></li>
+                        <li><a href="pages/servicios.html">Servicios</a></li>
+                        <li><a href="pages/mandanos-tu-cv.html">Mandanos tu cv</a></li>
+                        <li><a href="pages/Log-in.html">Log in</a></li>
+                        <li><a href=" reserva-ahora.html">Reserva ahora</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>

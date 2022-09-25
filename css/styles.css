@@ -24,22 +24,18 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: cornflowerblue;
     border-radius: 20px;
 }
 
 li {
     float: left;
 }
-
-li a {
+.opcionesnav  li {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 50px;
+    padding: 20px 30px;
     text-decoration: none;
     font-size: 16px;
 }
@@ -52,12 +48,9 @@ section figure a:hover {
     padding: 50px 10px;
     border-radius: 20px 20px 20px 20px;
 }
+
 .flexbox {
     display: flex;
-}
-
-.menu2 {
-    float: right;
 }
 
 img {
@@ -128,13 +121,13 @@ img {
     text-decoration: none;
     padding: 10px 10px 10px 10xp;
 }
-.pie {
+.containertext-center {
     width: 100%;
 }
-.grupo1{
+.row{
     display: flex;
 }
-.pie .grupo1 {
+.containertext-center .row {
     width: 100%;
     max-width: 100%;
     margin: auto;
@@ -144,7 +137,7 @@ img {
     padding: 45px 0px;
 }
 
-.pie .grupo1 .box figure {
+.containertext-center .row .col figure {
     width: 100%;
     height: 100%;
     display: flex;
@@ -154,25 +147,25 @@ img {
 
 
 
-.pie .grupo1 .box h2 {
+.containertext-center .row .col  h2 {
     color: cornflowerblue;
     margin-bottom: 25px;
     font-size: 20px;
-    background-color: white;
+    background-color:white;
 }
 
-.pie .grupo1 .box p {
+.containertext-center .row .col  p {
     color: cornflowerblue;
     font-size: 10px;
 }
 
-.pie .grupo1 .box h1 {
+.containertext-center .row .col  h1 {
     color: cornflowerblue;
     margin-bottom: 25px;
     font-size: 20px;
 }
 
-.pie .grupo1 .redes a {
+.containertext-center .row .redes a {
     display: inline-block;
     text-decoration: none;
     width: 80px;
@@ -188,14 +181,14 @@ img {
     color:cornflowerblue;
 }
 
-.pie .grupo2 {
+.containertext-center .grupo2 {
     background-color: cornflowerblue;
     padding: 15px 10px;
     text-align: center;
     color: white;
 }
 
-.pie .grupo2 small {
+.containertext-center .grupo2 small {
     font-size: 15px;
 }
 
@@ -332,7 +325,7 @@ body .volver  {
 }
 .volver a{
     color: white;
-    font-size: 80px;
+    font-size: 20px;
     text-decoration: none;
     
 }
@@ -343,39 +336,37 @@ body .volver  {
     padding: 80px 0px 80px;
     margin-top: 200px;
 }
-#servicios{
+.servicios{
     justify-content: center;
     background-color: #05C73F;
 }
-
-
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
 body div h2{
     color: white;
     background-color: cornflowerblue;
-    padding: 80px 25px 80px 25px;
-    font-size: 100px;
+    padding: 30px 25px 30px 25px;
+    font-size: 40px;
     text-align: center;
 }
-#servfotos  {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-  
+.servfotos  {
+    display: flex;
 }
 .container figure{
   color: white;
   text-align: center;
-    font-size: 80px;
+    font-size: 16px;
     text-decoration: none;
     justify-content: center;
     background-color: #05C73F;
     padding: 20px ;
 }
 
-.container .comprar .techos {
-    height: 1045px;
-}
-.container .ofi{
-    height: 1042px;
+
+.container figure .ofi{
+    height: 200px;
 
 }
 
@@ -392,7 +383,9 @@ body div h2{
     .containerimg {
         flex-direction: column; 
     }
-    
+    .servfotos{
+        flex-direction: column;
+    }
     
 
 }
