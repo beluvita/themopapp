@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto+Condensed:wght@300&family=Satisfy&display=swap');
+
+html {
+    font-size: 62.5%;
+
+    font-family: sans-serif;
+}
+.logo {
+   
+    position:relative;
+    height: 357px;
+}
+.confianza{
+    font-family: cursive;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cornflowerblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 80px 50px;
+    text-decoration: none;
+    font-size: 70px;
+}
+
+li a:hover {
+    background-color: #4BFA2D;
+}
+
+.menu2 {
+    float: right;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+.img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-block-start: 350px;
+    width:100%;
+    background-size: 100% 100%;
+    padding: 0px 0px  0px 0px;   
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+
+* {
+    box-sizing: border-box;
+  }
+
+.img2 {
+    float: left;
+    width: 33.33%;
+    position: relative;
+    text-align: center;
+    background-color: cornflowerblue;
+    
+}
+.img2 img {
+    padding: 200px 100px 20px 100px;
+    border-radius: 20px;
+
+}
+
+.row ::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+.btn {
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 150px;
+    text-align: center;
+    font-size: 120px;
+    border-radius: 20px;
+}
+figure .centered a:hover{
+background-color: cornflowerblue;
+padding: 150px;
+
+}
+.ir  {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    text-decoration: none;
+    justify-content: center;
+}
+.texto {
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    text-decoration: none;
+    justify-content: center;
+  background-color: #4BFA2D;
+ }   
+ h2{
+    font-size: 80px;
+ }
+ h1{
+    font-size: 80px;
+ }
+
+section figure a:hover{
+     background-color: #4BFA2D;
+     padding:80px 10px;
+     border-radius: 20px;  
+}
+
+.bottom-left {
+  position: relative;
+  padding:80px 10px;
+ 
+}
+
+
+.centered{
+position: absolute;
+  top: 60%;
+  left: 8%;
+  margin-left: 1px;
+}
+.nosotros img{
+    width: 30%;
+}
+
+.pie {
+    width: 100%;
+    background-color: cornflowerblue;
+}
+.pie .grupo1{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie .grupo1 .box figure img{
+    width: 100%;
+    height: 300px;
+}
+.pie .grupo1 .box h2{
+    color: cornflowerblue;
+    margin-bottom: 25px;
+    font-size: 80px;
+}
+.pie .grupo1 .box p{
+    color: cornflowerblue;
+    font-size: 50px;
+}
+
+.pie .grupo1 .box h1{
+    color: cornflowerblue;
+    margin-bottom: 25px;
+    font-size: 80px;
+}
+.pie .grupo1 .redes a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color:white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 70px;
+}
+.pie .grupo2{
+    background-color: cornflowerblue;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+.pie .grupo2 small{
+    font-size: 50px;
+}
+footer
+{
+    margin-top:50px;
+    width:100%;
+    height:200px;
+}
+
