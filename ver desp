@@ -257,3 +257,81 @@
         height: 200px;
 
         */SERVICIOS*/
+
+        */navbar*/
+        <body  class="p-3 m-0 border-0 bd-example expand">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light stilo">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><img src=img/logo-mopapp.png alt="logo" width="150px"
+                                height="10px"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse opcionesnav" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/index.html"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/servicios.html">
+                                            Servicios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                                    </li>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/mandanos-tu-cv.html">Mandanos tu cv</a>
+                                    </li>
+                                   
+                                </ul>
+        
+                            </div>
+                    </div>
+                </nav>
+            </header>
+
+            */main*/
+            <section>
+                <div class="container-fluid containertext-center containerimg card" style="width: 18rem;">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 col-lg-4 img2">
+                            <img src=img/disinfecting-in-home.jpg class="card-img-top" width="800px" height="500px"
+                                alt="mujer-limpiando">
+                            <div class="card-body">
+                                <figure><h5 class="card-title"><a class="ir" href="Reseñas.html">
+                                        Mira las valoraciones de los servicios realizados
+                                    </a></h5></figure>
+                            </div>
+                        </div>
+    
+                        <div class="col-xs-12 col-md-6 col-lg-4 img2">
+                            <img src="img/imagen-tips.jpg" width="800px" height="500px" alt="tips" height:>
+                            <br>
+                            <div>
+                                <figure><a class="ir" href="Tips-de-limpieza.html">Compartí tus tips de limpieza</a>
+                                </figure>
+                            </div>
+                        </div>
+    
+    
+    
+    
+                        <div class="col-xs-12 col-md-6 col-lg-4 img2">
+                            <img src="img/productos.jpg" width="800px" height="500px" alt="comprar">
+                            <br>
+    
+                            <div>
+                                <figure> <a href="Compra-productos-de-limpieza">Compra los mejores
+                                        productos de limpieza</a></figure>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
