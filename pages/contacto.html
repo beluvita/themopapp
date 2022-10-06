@@ -5,94 +5,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
-<body>
-    <section id="contact" class="flexbox">
-        <div class="imagen">
-            <img src=../img/beneficios-de-contratar-un-servicio-de-limpieza-profesional-para-el-hogar.jpg width="100%" height="100%" />
-        </div>
-        <div class="formulario">
-            <h1>Formulario de contacto</h1>
-            <form action="/action_page.php">
-                <div class="row">
-                    <div class="col1">
-                        <label for="Nombre">Nombre</label> <input type="text" id="Nombre" name="Nombre"
-                            placeholder="Nombre" />
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col2">
-                        <label for="Apellido">Apellido</label> <input type="text" id="Apellido" name="Apellido"
-                            placeholder="Apellido" />
-                    </div>
-                </div>
+<body >
+    <div>
+        <h1 class="formulario">Formulario de contacto</h1>
+    </div>
+   
+    <div class="card mb-3" id="contacto" class="flexbox" style="max-width: 100%;">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img src="../img/beneficios-de-contratar-un-servicio-de-limpieza-profesional-para-el-hogar.jpg"
+                    class="img-fluid rounded-start" width="100%" height="100%" alt="contact">
+            </div>
+            <div class="col-md-6" style="background-color:cornflowerblue ;">
+                <div class="card-body">
+                    <form class="row g-3 card-text" >
+                        <div class="col-md-6">
+                            <label for="Nombre" class="form-label">Nombre</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                          </div>
+                        <div class="col-md-6">
+                          <label for="Apellido" class="form-label">Apellido</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label for="Mail" class="form-label">Mail</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="Tipodeservicio" class="form-label">Tipo de servicio</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Seleccionar...</option>
+                            <option>Limpieza del Hogar</option>
+                            <option>Limpieza de oficinas</option>
+                            <option>Limpieza de Techos</option>
+                            <option>Sanitización y Desinfección</option>
+                            <option>Otros   </option>
+                          </select>
+                        </div>
+                        <div class="form-floating colarea">
+                            <label for="Comentarios">Comentarios</label><textarea class="form-control"
+                                placeholder="Ingresar comentario" id="floatingTextarea2" style="height: 100px"
+                                area-label="Ingresar comentario">Ingresar comentario</textarea>
+                        </div>
+                        <div class="row">
+                            
+                                <input type="submit" value="Enviar" id="Aceptar" name="Aceptar" />
+                            </div>
+                        
+                        </div>
+                       
+                      </form>
 
-                <br>
-                <div class="row">
-                    <div class="col3">
-                        <label for="Mail">Mail</label> <input type="Mail" id="Mail" name="Mail" placeholder="Mail"
-                            name="Mail" />
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="coment">
-                        <label for="Comentarios">Comentarios</label>
-                    </div>
-
-
-                    <div class="coment2">
-                        <textarea type="text" cols="40" rows="10" name="Comentarios" placeholder="Ingresar comentario"
-                            class="comentarios"></textarea>
-                    </div>
-                </div>
-                </br>
-                <div class="row">
-                    <div class="col6"> <input type="reset" value="Limpiar datos" id=Limpiar datos name=limpiar datos />
-                    <br>
-                    <input type="submit" value="Enviar" id="Aceptar" name="Aceptar" />
-                </div>
-                </div>
-        </div>
-        </form>
-        </div>
-        </div>
-        </div>
-    </section>
-<div class="volver">
-        <a href="pages/index.html">Volver al home</a>
 
     </div>
-    <footer> 
-        <div class="containertext-center">
-        <div class="row">
-            <div class="col">
-                <figure>
-                    <a href="#">
-                        <img class="logo" src=../img/logo-mopapp.png alt="logo-mopapp">
-                    </a>
-                </figure>
-            </div>
-            <div class="col">
-                <h1>Sobre nosotros</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis impedit est delectus. Odit ad
-                    impedit }!</p>
-            </div>
-            <div class="col">
-                <h2>Encontranos en</h2>
-                <div class="redes">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
+    </div>
+    </div>
+    </div>
+    
+    </section>
+    <div class="volver">
+        <a href="../index.html">Volver al home</a>
+
+    </div>
+    <footer>
+        <div class="container-fluid containertext-center stilo">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-lg-4 logofooter">
+                    <figure>
+                        <a href="#">
+                            <img class="logo" src="../img/logo-mopapp.png" width="150px" height="10px"
+                                alt="logo-mopapp">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-4">
+                    <ul class="lista">
+                        <li>Preguntas frecuentes</li>
+                        <li>Politica de privacidad</li>
+                        <li>Terminos y condiciones</li>
+                        <li>Contactanos</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-4">
+                    <h1>Encontranos en</h1>
+                    <div class="redes">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="grupo2">
-            <small>&copy; 2022 <b>Themopapp </b> - Todos los Derechos Reservados.</small>
-        </div>
+            <div class="grupo2">
+                <small>&copy; 2022 <b>Themopapp </b> - Todos los Derechos Reservados.</small>
+            </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>

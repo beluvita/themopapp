@@ -89,6 +89,8 @@ img {
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 section .containerimg .col .card  {
@@ -98,13 +100,27 @@ section .containerimg .col .card  {
     transition: all 400ms ease;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
-
+section .containerimg .col-md-6 .card  {
+    display: flex;
+    background-color: cornflowerblue;
+    border: solid, 1ch cornflowerblue;
+    transition: all 400ms ease;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
 section .containerimg .col .card h5 a{
+    text-decoration: none;
+    color: white;
+}
+section .containerimg .col-md-6 .card h5 a{
     text-decoration: none;
     color: white;
 
 }
 section .containerimg .col .card h5{
+    text-align: center;
+    font-size: 20px;
+}
+section .containerimg .col-md-6 .card h5{
     text-align: center;
     font-size: 20px;
 }
@@ -114,14 +130,23 @@ section .containerimg .col .card img{
    margin: 0 auto;
    border: solid 1ch cornflowerblue;
 }
+section .containerimg .col-md-6 .card img{
+    width: 400px;
+   margin: 0 auto;
+   border: solid 1ch cornflowerblue;
+}
 
 .containerimg .col .card-body a:hover {
     background-color: #05C73F;
     transform: scale(1.1)
+   
+}
+containerimg .col-md-6 .card-body a:hover {
+    background-color: #05C73F;
+    transform: scale(1.1)
 
 }
-
-section .containerimg .col .card:hover {
+section .containerimg .col-md-6 .card:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -230,14 +255,19 @@ footer {
     font-size: 15px;
 }
 
-.texto {
+.nos{
     color: white;
-    text-align: center;
     font-size: 20px;
-    text-decoration: none;
-    background-color: #05C73F;
-}
-
+    position: absolute;
+    }
+.card-img-overlay {
+    top:30%;
+    left: 60%
+    
+    }
+ #nosotros{
+    padding-top: 0;
+ }
 h2 {
     font-size: 30px;
 }
@@ -249,104 +279,103 @@ h1 {
 
 
 
-#contact .imagen .formulario {
+#contacto .row .g-0 img p{
     width: 100%;
     flex-grow: 1;
     padding: 80px 0px 80px;
     margin-top: 200px;
 }
 
-#contact img {
-    width: 50px;
+#contacto .row  .col-md-6 img{
+    margin-top: 26px;
+    margin-left: 10px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+#contacto .row  .col-md-6 .cv{
+    margin-top: 60px;
+    margin-left: 10px;
+    max-width: 100%;
+    border-radius: 15px;
 }
 
-#contact h1 {
+.formulario {
     color: white;
-    font-size: 40px;
-    text-decoration: none;
-    padding: 80px 25px 80px 25px;
-    text-align: left;
-    justify-content: center;
+    background-color: cornflowerblue;
+    padding: 15px 25px 15px 25px;
+    font-size: 25px;
+    text-align: center;
 }
 
 * {
     box-sizing: border-box;
 }
 
-form {
+ form {
     font-size: 16px;
     color: white;
-    width: 50%;
+    font-family: sans-serif;
+    
 }
 
-label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
+#contacto {
+background-color: cornflowerblue;
 }
+
+
 
 input[type="text"],
 input[type="number"],
 input[type="Mail"] {
-    width: 70%;
-    padding: 12px 20px;
+    padding: 5px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid;
     border-radius: 4px;
 }
-
-textarea {
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid;
-    border-radius: 4px;
-    resize: none;
+.form-floating .form-control{
+    border: 2px solid #05C73F;
+    font-family: sans-serif;
 }
 
 input[type="submit"],
 input[type="reset"] {
     background-color: #05C73F;
-    border: none;
+    border-radius: 4px;
     color: white;
-    padding: 30px 32px;
-    text-decoration: none;
+    padding: 10px 32px;
     margin: 4px 2px;
     cursor: pointer;
-    font-size: 30px
+    font-size: 20px;    
+}
+#formFile {
+font-size: 12px;
+padding: 10px 32px;
+}
+label .name{
+    
+}
+body  h5{
+    font-size: 30px;
+    color: white;
+}
+.card-text form .row {
+    left:75%
+
 }
 
-.coment {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-}
-
-.coment2 {
-    float: left;
-    width: 75%;
+.colarea {
+    width: 100%;
     margin-top: 6px;
     padding: 12px 12px 12px 0;
 }
 
-#intro {
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-}
-
-#intro div {
-    width: 100%;
-    text-align: center;
-}
-
-#intro h2 {
+.intro h2 {
     color: white;
-    font-size: 100px;
-    text-decoration: none;
-    background-color: z#4BFA2D;
-    padding: 80px 25px 80px 25px;
+    background-color: cornflowerblue;
+    padding: 15px 25px 15px 25px;
+    font-size: 25px;
+    text-align: center;
 }
 
 section .volver {
@@ -358,7 +387,9 @@ section .volver {
 }
 
 .volver {
+    text-align: center;
     padding: 15px;
+    background-color: cornflowerblue;
 }
 
 .volver a {
@@ -367,12 +398,6 @@ section .volver {
     text-decoration: none;
 }
 
-#nosotros div {
-    width: 50%;
-    flex-grow: 1;
-    padding: 80px 0px 80px;
-    margin-top: 200px;
-}
 
 .servicios {
     justify-content: center;
@@ -407,9 +432,7 @@ p {
 
 }
 
- .ofi {
-height: 270px;
-}
+ 
 
 #contact {
     width: 100%;
@@ -419,4 +442,9 @@ height: 270px;
     display: flex;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+@media (min-width: 768px) {
+    .container{
+        
+    }
 }
